@@ -1,7 +1,7 @@
-# 4IWJ DOCKER PROJECT
+# 4IWJ PROJET DOCKER
 
-To run the project, execute the following command in the terminal: docker-compose up --build.
+Pour lancer le projet, éxecuter la commande suivante dans le terminal: docker-compose up --build.
 
-Access the project in your web browser at http://localhost:8080/.
+Accès au projet à l'adresse: http://localhost:8080/.
 
-The todo list can be accessed at http://localhost:8080/todo.
+Accès à la todo list à l'adresse: http://localhost:8080/todo.
