@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nginx:
-    image: rafaeltdp/nginx
+    image: alexism/nginx
     container_name: project-nginx
     volumes:
       - ./app:/var/www/app
@@ -13,7 +13,7 @@ services:
       - php
 
   php:
-    image: rafaeltdp/php
+    image: alexism/php
     container_name: project-php
     volumes:
       - ./app:/var/www/app
@@ -23,7 +23,7 @@ services:
       - postgres
 
   postgres:
-    image: rafaeltdp/postgres
+    image: alexism/postgres
     container_name: project-postgres
     environment:
       POSTGRES_DB: app

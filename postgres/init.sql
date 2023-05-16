@@ -6,22 +6,12 @@ CREATE TABLE todo (
 );
 
 INSERT INTO todo (name) VALUES ('Faire les courses');
-INSERT INTO todo (name) VALUES ('Faire le ménage');
-INSERT INTO todo (name) VALUES ('Répondre aux e-mails');
-INSERT INTO todo (name) VALUES ('Préparer la réunion');
-INSERT INTO todo (name) VALUES ('Faire la vaisselle');
-INSERT INTO todo (name) VALUES ('Aller chez le médecin');
-INSERT INTO todo (name) VALUES ('Réserver le vol');
-INSERT INTO todo (name) VALUES ('Réparer la machine à laver');
-INSERT INTO todo (name) VALUES ('Préparer le dîner');
-INSERT INTO todo (name) VALUES ('Sortir les poubelles');
-
--- CREATE TABLE todo (
---     id SERIAL PRIMARY KEY,
---     name VARCHAR(255) NOT NULL,
---     completed BOOLEAN NOT NULL DEFAULT false
--- );
-
--- INSERT INTO todo (name, completed) VALUES ('Faire les courses', false);
--- INSERT INTO todo (name, completed) VALUES ('Faire le ménage', true);
--- INSERT INTO todo (name, completed) VALUES ('Répondre aux e-mails', false);
+INSERT INTO todo (name) VALUES ('Acheter du pain');
+INSERT INTO todo (name) VALUES ('Acheter du lait');
+INSERT INTO todo (name) VALUES ('Acheter du beurre');
+INSERT INTO todo (name) VALUES ('Acheter des oeufs');
+INSERT INTO todo (name) VALUES ('Acheter du fromage');
+INSERT INTO todo (name) VALUES ('Acheter de la viande');
+INSERT INTO todo (name) VALUES ('Acheter des légumes');
+INSERT INTO todo (name) VALUES ('Acheter des fruits');
+INSERT INTO todo (name) VALUES ('Acheter des pâtes');
