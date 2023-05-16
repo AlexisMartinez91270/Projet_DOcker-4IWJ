@@ -5,13 +5,13 @@ CREATE TABLE todo (
     name VARCHAR(255) NOT NULL
 );
 
-INSERT INTO todo (name) VALUES ('Faire les courses');
-INSERT INTO todo (name) VALUES ('Acheter du pain');
-INSERT INTO todo (name) VALUES ('Acheter du lait');
-INSERT INTO todo (name) VALUES ('Acheter du beurre');
-INSERT INTO todo (name) VALUES ('Acheter des oeufs');
-INSERT INTO todo (name) VALUES ('Acheter du fromage');
-INSERT INTO todo (name) VALUES ('Acheter de la viande');
-INSERT INTO todo (name) VALUES ('Acheter des légumes');
-INSERT INTO todo (name) VALUES ('Acheter des fruits');
-INSERT INTO todo (name) VALUES ('Acheter des pâtes');
+INSERT INTO todo (name) VALUES ('Learn SQL');
+INSERT INTO todo (name) VALUES ('Learn Go');
+INSERT INTO todo (name) VALUES ('Learn React');
+INSERT INTO todo (name) VALUES ('Learn Docker');
+INSERT INTO todo (name) VALUES ('Learn Kubernetes');
+INSERT INTO todo (name) VALUES ('Learn AWS');
+INSERT INTO todo (name) VALUES ('Learn Terraform');
+INSERT INTO todo (name) VALUES ('Learn Ansible');
+INSERT INTO todo (name) VALUES ('Learn Python');
+INSERT INTO todo (name) VALUES ('Learn Java');
